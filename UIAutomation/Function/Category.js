@@ -569,3 +569,168 @@ test("[1938149] check 服飾 show correct.", function () {
     Action.goBack();
     Action.goDiscoveryStream();
 });
+
+test("[1938150] check 美妝 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(1, "美妝");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(1);
+
+    //verify screen successful navigate to 美妝 screen.
+    Assert.navigationBarName("美妝");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938151] check 鞋包配飾 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(2, "鞋包配飾");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(2);
+
+    //verify screen successful navigate to 鞋包配飾 screen.
+    Assert.navigationBarName("鞋包配飾");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938152] check 媽咪寶貝 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(3, "媽咪寶貝");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(3);
+
+    //verify screen successful navigate to 媽咪寶貝 screen.
+    Assert.navigationBarName("媽咪寶貝");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938153] check 電腦/週邊 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(4, "電腦/週邊");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(4);
+
+    //verify screen successful navigate to 電腦/週邊 screen.
+    Assert.navigationBarName("電腦/週邊");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938154] check 家電/視聽 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(5, "家電/視聽");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(5);
+
+    //verify screen successful navigate to 家電/視聽 screen.
+    Assert.navigationBarName("家電/視聽");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938155] check 相機/ 手機/玩具 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(6, "相機/ 手機/玩具");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(6);
+
+    //verify screen successful navigate to 相機/ 手機/玩具 screen.
+    Assert.navigationBarName("相機/手機/玩具");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938156] check 美食/ 保健/飲料 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(7, "美食/ 保健/飲料");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(7);
+
+    //verify screen successful navigate to 美食/ 保健/飲料 screen.
+    Assert.navigationBarName("美食/保健/飲料");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938157] check 日用品/ 清潔/寵物 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(8, "日用品/ 清潔/寵物");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(8);
+
+    //verify screen successful navigate to 日用品/ 清潔/寵物 screen.
+    Assert.navigationBarName("日用品/清潔/寵物");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938158] check 居家/ 寢具/傢俱 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(9, "居家/ 寢具/傢俱");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(9);
+
+    //verify screen successful navigate to 日用品/ 清潔/寵物 screen.
+    Assert.navigationBarName("居家/寢具/傢俱");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938159] check 運動/ 戶外/休閒 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(10, "運動/ 戶外/休閒");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(10);
+
+    //verify screen successful navigate to 日用品/ 清潔/寵物 screen.
+    Assert.navigationBarName("運動/戶外/休閒");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
+
+test("[1938160] check 圖書/ 文具/影音 show correct.", function () {
+    Action.tapButtonOnTabBar(2);
+    Assert.allCategoryItemShowCorrect(11, "圖書/ 文具/影音");
+
+    //Go to item list screen.
+    Action.tapItemOnCategoryScreen(11);
+
+    //verify screen successful navigate to 日用品/ 清潔/寵物 screen.
+    Assert.navigationBarName("圖書/文具/影音");
+
+    //Tap back button and go back to discovery screen.
+    Action.goBack();
+    Action.goDiscoveryStream();
+});
