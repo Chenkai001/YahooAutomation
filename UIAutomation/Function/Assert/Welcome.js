@@ -1,5 +1,5 @@
 Assert.verifyWelcomeScreen = function () {
-	$.delay(4);
+    $.delay(4);
 
 	//Verify "歡迎" show correct.
 	var sWelcomeName = app.mainWindow().staticTexts()[0].name();

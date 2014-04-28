@@ -244,3 +244,9 @@ Action.selectCategoryItem = function (itemName) {
     var itemCell = tableView.cells()[itemName];
     itemCell.tap();
 };
+
+Action.tapItemOnCategoryScreen = function (itemName) {
+    $.delay(sleep);
+    var categoryItem = app.mainWindow().tableViews()[1].cells()[itemName];
+    categoryItem.tap();
+};

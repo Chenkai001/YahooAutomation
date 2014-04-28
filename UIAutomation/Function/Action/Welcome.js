@@ -1,5 +1,5 @@
 Action.tapNextButtonOnWelcomeScreen = function () {
-	$.delay(sleep);
+    $.delay(sleep);
 	var nextButton = app.mainWindow().buttons()[1];
 	nextButton.tap();
 };

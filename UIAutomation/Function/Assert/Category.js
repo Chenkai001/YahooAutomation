@@ -296,3 +296,11 @@ Assert.elementsOnFilterScreen = function () {
 
  	assertEquals(itemName, itemCellName);
  };
+
+ Assert.allCategoryItemShowCorrect = function (i, itemName) {
+ 	$.delay(sleep);
+    var itemCell = app.mainWindow().tableViews()[1].cells()[i];
+ 	var tabItemName = itemCell.name();
+
+ 	assertEquals(itemName, tabItemName);
+ };
